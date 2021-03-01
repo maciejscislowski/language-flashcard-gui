@@ -1,2 +1,11 @@
-<app-layout-header></app-layout-header>
-Deck list page!
+<div class="list-group">
+  <a [routerLink]="[Paths.DECKS, 1]" class="list-group-item list-group-item-action">
+    Deck 1
+  </a>
+  <a [routerLink]="'/my-decks/2'" class="list-group-item list-group-item-action">
+    Deck 2
+  </a>
+  <a [routerLink]="'/my-decks/3'" class="list-group-item list-group-item-action">
+    Deck 3
+  </a>
+</div>

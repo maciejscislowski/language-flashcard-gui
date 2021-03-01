@@ -2,14 +2,12 @@ import * as fromComponents from './components';
 import {FormsModule} from "@angular/forms";
 import {CommonModule} from "@angular/common";
 import {NgModule} from "@angular/core";
-import {MatButtonModule} from "@angular/material/button";
-import {MatIconModule} from "@angular/material/icon";
+import {NgxBootstrapModule} from "@shared/ngx-bootstrap.module";
 
 const modules = [
   CommonModule,
   FormsModule,
-  MatButtonModule,
-  MatIconModule
+  NgxBootstrapModule
 ]
 const components = [...fromComponents.components]
 
